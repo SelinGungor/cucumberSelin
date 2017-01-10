@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="17.701938">
-<testcase classname="Facebook login" name="Facebook login with valid credentials" time="6.998898">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="17.9783">
+<testcase classname="Facebook login" name="Facebook login with valid credentials" time="6.83959">
 <system-out><![CDATA[Given Open firefox browser..................................................passed
 When I enter valid "selintestselin@gmail.com"...............................passed
 And enter valid "test0test".................................................passed
@@ -8,7 +8,7 @@ Then I should be able to login successfully.................................pass
 Then Application should be closed...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Facebook login" name="Facebook login with valid credentials 2" time="5.440307">
+<testcase classname="Facebook login" name="Facebook login with valid credentials 2" time="5.764408">
 <system-out><![CDATA[Given Open firefox browser..................................................passed
 When I enter valid "selintestselin@gmail.com"...............................passed
 And enter valid "test0test1"................................................passed
@@ -17,7 +17,7 @@ Then I should be able to login successfully.................................pass
 Then Application should be closed...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Facebook login" name="Facebook login with valid credentials 3" time="5.262733">
+<testcase classname="Facebook login" name="Facebook login with valid credentials 3" time="5.374302">
 <system-out><![CDATA[Given Open firefox browser..................................................passed
 When I enter valid "test@gmail.com".........................................passed
 And enter valid "test"......................................................passed
