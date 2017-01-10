@@ -24,8 +24,8 @@ Feature: Facebook login
 @tag1
 Scenario: Facebook login with valid credentials
 Given Open firefox browser
-When I enter valid user name
-	And enter valid password
+When I enter valid "selintestselin@gmail.com"
+	And enter valid "test0test"
 	And click login button
 Then I should be able to login successfully
 

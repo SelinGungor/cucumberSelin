@@ -19,14 +19,14 @@ public class LoginTests {
 		driver.get("https://www.facebook.com/");
 	}
 
-	@When("^I enter valid user name$")
-	public void i_enter_valid_user_name() throws Throwable {
-		driver.findElement(By.id("email")).sendKeys("selintestselin@gmail.com");
+	@When("^I enter valid \"([^\"]*)\"$")
+	public void i_enter_valid_username(String username) throws Throwable {
+		driver.findElement(By.id("email")).sendKeys(username);//selintestselin@gmail.com
 	}
 
-	@When("^enter valid password$")
-	public void enter_valid_password() throws Throwable {
-		driver.findElement(By.id("pass")).sendKeys("test0test");
+	@When("^enter valid \"([^\"]*)\"$")
+	public void enter_valid_password(String password) throws Throwable {
+		driver.findElement(By.id("pass")).sendKeys(password);//test0test
 	}
 
 	@When("^click login button$")
