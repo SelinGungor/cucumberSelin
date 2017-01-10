@@ -1,8 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.797399">
-<testcase classname="Facebook login" name="Facebook login with valid credentials" time="6.797399">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="17.701938">
+<testcase classname="Facebook login" name="Facebook login with valid credentials" time="6.998898">
 <system-out><![CDATA[Given Open firefox browser..................................................passed
 When I enter valid "selintestselin@gmail.com"...............................passed
 And enter valid "test0test".................................................passed
+And click login button......................................................passed
+Then I should be able to login successfully.................................passed
+Then Application should be closed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook login" name="Facebook login with valid credentials 2" time="5.440307">
+<system-out><![CDATA[Given Open firefox browser..................................................passed
+When I enter valid "selintestselin@gmail.com"...............................passed
+And enter valid "test0test1"................................................passed
+And click login button......................................................passed
+Then I should be able to login successfully.................................passed
+Then Application should be closed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook login" name="Facebook login with valid credentials 3" time="5.262733">
+<system-out><![CDATA[Given Open firefox browser..................................................passed
+When I enter valid "test@gmail.com".........................................passed
+And enter valid "test"......................................................passed
 And click login button......................................................passed
 Then I should be able to login successfully.................................passed
 Then Application should be closed...........................................passed

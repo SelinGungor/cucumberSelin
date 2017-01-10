@@ -5,13 +5,30 @@
       {
         "name": "I enter valid \"selintestselin@gmail.com\"",
         "aggregatedDurations": {
-          "average": 0.197543009,
-          "median": 0.197543009
+          "average": 0.156278804,
+          "median": 0.156278804
         },
         "durations": [
           {
-            "duration": 0.197543009,
-            "location": "myapplication.feature:27"
+            "duration": 0.220118653,
+            "location": "myapplication.feature:26"
+          },
+          {
+            "duration": 0.092438955,
+            "location": "myapplication.feature:26"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"test@gmail.com\"",
+        "aggregatedDurations": {
+          "average": 0.07515333,
+          "median": 0.07515333
+        },
+        "durations": [
+          {
+            "duration": 0.07515333,
+            "location": "myapplication.feature:26"
           }
         ]
       }
@@ -23,13 +40,21 @@
       {
         "name": "click login button",
         "aggregatedDurations": {
-          "average": 0.087099593,
-          "median": 0.087099593
+          "average": 0.115498692,
+          "median": 0.100403788
         },
         "durations": [
           {
-            "duration": 0.087099593,
-            "location": "myapplication.feature:29"
+            "duration": 0.100403788,
+            "location": "myapplication.feature:28"
+          },
+          {
+            "duration": 0.14847345,
+            "location": "myapplication.feature:28"
+          },
+          {
+            "duration": 0.09761884,
+            "location": "myapplication.feature:28"
           }
         ]
       }
@@ -41,13 +66,39 @@
       {
         "name": "enter valid \"test0test\"",
         "aggregatedDurations": {
-          "average": 0.04740609,
-          "median": 0.04740609
+          "average": 0.041842905,
+          "median": 0.041842905
         },
         "durations": [
           {
-            "duration": 0.04740609,
-            "location": "myapplication.feature:28"
+            "duration": 0.041842905,
+            "location": "myapplication.feature:27"
+          }
+        ]
+      },
+      {
+        "name": "enter valid \"test0test1\"",
+        "aggregatedDurations": {
+          "average": 0.049052584,
+          "median": 0.049052584
+        },
+        "durations": [
+          {
+            "duration": 0.049052584,
+            "location": "myapplication.feature:27"
+          }
+        ]
+      },
+      {
+        "name": "enter valid \"test\"",
+        "aggregatedDurations": {
+          "average": 0.031479978,
+          "median": 0.031479978
+        },
+        "durations": [
+          {
+            "duration": 0.031479978,
+            "location": "myapplication.feature:27"
           }
         ]
       }
@@ -59,13 +110,21 @@
       {
         "name": "Application should be closed",
         "aggregatedDurations": {
-          "average": 1.374094892,
-          "median": 1.374094892
+          "average": 1.283326379,
+          "median": 1.23591371
         },
         "durations": [
           {
-            "duration": 1.374094892,
-            "location": "myapplication.feature:31"
+            "duration": 1.388898736,
+            "location": "myapplication.feature:30"
+          },
+          {
+            "duration": 1.23591371,
+            "location": "myapplication.feature:30"
+          },
+          {
+            "duration": 1.225166692,
+            "location": "myapplication.feature:30"
           }
         ]
       }
@@ -77,13 +136,21 @@
       {
         "name": "I should be able to login successfully",
         "aggregatedDurations": {
-          "average": 0.046189477,
-          "median": 0.046189477
+          "average": 0.041735928,
+          "median": 0.039082826
         },
         "durations": [
           {
-            "duration": 0.046189477,
-            "location": "myapplication.feature:30"
+            "duration": 0.056197131,
+            "location": "myapplication.feature:29"
+          },
+          {
+            "duration": 0.029927828,
+            "location": "myapplication.feature:29"
+          },
+          {
+            "duration": 0.039082826,
+            "location": "myapplication.feature:29"
           }
         ]
       }
@@ -95,13 +162,21 @@
       {
         "name": "Open firefox browser",
         "aggregatedDurations": {
-          "average": 5.045066024,
-          "median": 5.045066024
+          "average": 4.290056045,
+          "median": 3.88450065
         },
         "durations": [
           {
-            "duration": 5.045066024,
-            "location": "myapplication.feature:26"
+            "duration": 5.19143665,
+            "location": "myapplication.feature:25"
+          },
+          {
+            "duration": 3.88450065,
+            "location": "myapplication.feature:25"
+          },
+          {
+            "duration": 3.794230835,
+            "location": "myapplication.feature:25"
           }
         ]
       }

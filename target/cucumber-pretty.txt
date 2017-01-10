@@ -21,10 +21,39 @@ Feature: Facebook login
   I want to use this template for my feature file
 
   @tag1
-  Scenario: Facebook login with valid credentials [90m# myapplication.feature:25[0m
-    [32mGiven [0m[32mOpen firefox browser[0m                    [90m# LoginTest.open_firefox_browser()[0m
-    [32mWhen [0m[32mI enter valid "[0m[32m[1mselintestselin@gmail.com[0m[32m"[0m [90m# LoginTest.i_enter_valid_username(String)[0m
-    [32mAnd [0m[32menter valid "[0m[32m[1mtest0test[0m[32m"[0m                   [90m# LoginTest.enter_valid_password(String)[0m
-    [32mAnd [0m[32mclick login button[0m                        [90m# LoginTest.click_login_button()[0m
-    [32mThen [0m[32mI should be able to login successfully[0m   [90m# LoginTest.i_should_be_able_to_login_successfully()[0m
-    [32mThen [0m[32mApplication should be closed[0m             [90m# LoginTest.application_should_be_closed()[0m
+  Scenario Outline: Facebook login with valid credentials [90m# myapplication.feature:24[0m
+    [36mGiven [0m[36mOpen firefox browser[0m
+    [36mWhen [0m[36mI enter valid "<username>"[0m
+    [36mAnd [0m[36menter valid "<password>"[0m
+    [36mAnd [0m[36mclick login button[0m
+    [36mThen [0m[36mI should be able to login successfully[0m
+    [36mThen [0m[36mApplication should be closed[0m
+
+    Examples: 
+
+  @tag @tag1
+  Scenario Outline: Facebook login with valid credentials [90m# myapplication.feature:34[0m
+    [32mGiven [0m[32mOpen firefox browser[0m                            [90m# LoginTest.open_firefox_browser()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mselintestselin@gmail.com[0m[32m"[0m         [90m# LoginTest.i_enter_valid_username(String)[0m
+    [32mAnd [0m[32menter valid "[0m[32m[1mtest0test[0m[32m"[0m                           [90m# LoginTest.enter_valid_password(String)[0m
+    [32mAnd [0m[32mclick login button[0m                                [90m# LoginTest.click_login_button()[0m
+    [32mThen [0m[32mI should be able to login successfully[0m           [90m# LoginTest.i_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mApplication should be closed[0m                     [90m# LoginTest.application_should_be_closed()[0m
+
+  @tag @tag1
+  Scenario Outline: Facebook login with valid credentials [90m# myapplication.feature:35[0m
+    [32mGiven [0m[32mOpen firefox browser[0m                            [90m# LoginTest.open_firefox_browser()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mselintestselin@gmail.com[0m[32m"[0m         [90m# LoginTest.i_enter_valid_username(String)[0m
+    [32mAnd [0m[32menter valid "[0m[32m[1mtest0test1[0m[32m"[0m                          [90m# LoginTest.enter_valid_password(String)[0m
+    [32mAnd [0m[32mclick login button[0m                                [90m# LoginTest.click_login_button()[0m
+    [32mThen [0m[32mI should be able to login successfully[0m           [90m# LoginTest.i_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mApplication should be closed[0m                     [90m# LoginTest.application_should_be_closed()[0m
+
+  @tag @tag1
+  Scenario Outline: Facebook login with valid credentials [90m# myapplication.feature:36[0m
+    [32mGiven [0m[32mOpen firefox browser[0m                            [90m# LoginTest.open_firefox_browser()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mtest@gmail.com[0m[32m"[0m                   [90m# LoginTest.i_enter_valid_username(String)[0m
+    [32mAnd [0m[32menter valid "[0m[32m[1mtest[0m[32m"[0m                                [90m# LoginTest.enter_valid_password(String)[0m
+    [32mAnd [0m[32mclick login button[0m                                [90m# LoginTest.click_login_button()[0m
+    [32mThen [0m[32mI should be able to login successfully[0m           [90m# LoginTest.i_should_be_able_to_login_successfully()[0m
+    [32mThen [0m[32mApplication should be closed[0m                     [90m# LoginTest.application_should_be_closed()[0m

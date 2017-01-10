@@ -70,26 +70,26 @@
         "value": "## (Comments)"
       },
       {
-        "line": 19,
+        "line": 18,
         "value": "#Sample Feature Definition Template"
       }
     ],
-    "line": 21,
+    "line": 20,
     "elements": [
       {
-        "line": 25,
+        "line": 34,
         "name": "Facebook login with valid credentials",
         "description": "",
-        "id": "facebook-login;facebook-login-with-valid-credentials",
+        "id": "facebook-login;facebook-login-with-valid-credentials;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5045066024,
+              "duration": 5191436650,
               "status": "passed"
             },
-            "line": 26,
+            "line": 25,
             "name": "Open firefox browser",
             "match": {
               "location": "LoginTest.open_firefox_browser()"
@@ -98,10 +98,10 @@
           },
           {
             "result": {
-              "duration": 197543009,
+              "duration": 220118653,
               "status": "passed"
             },
-            "line": 27,
+            "line": 26,
             "name": "I enter valid \"selintestselin@gmail.com\"",
             "match": {
               "arguments": [
@@ -112,14 +112,17 @@
               ],
               "location": "LoginTest.i_enter_valid_username(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 47406090,
+              "duration": 41842905,
               "status": "passed"
             },
-            "line": 28,
+            "line": 27,
             "name": "enter valid \"test0test\"",
             "match": {
               "arguments": [
@@ -130,14 +133,17 @@
               ],
               "location": "LoginTest.enter_valid_password(String)"
             },
+            "matchedColumns": [
+              1
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 87099593,
+              "duration": 100403788,
               "status": "passed"
             },
-            "line": 29,
+            "line": 28,
             "name": "click login button",
             "match": {
               "location": "LoginTest.click_login_button()"
@@ -146,10 +152,10 @@
           },
           {
             "result": {
-              "duration": 46189477,
+              "duration": 56197131,
               "status": "passed"
             },
-            "line": 30,
+            "line": 29,
             "name": "I should be able to login successfully",
             "match": {
               "location": "LoginTest.i_should_be_able_to_login_successfully()"
@@ -158,10 +164,10 @@
           },
           {
             "result": {
-              "duration": 1374094892,
+              "duration": 1388898736,
               "status": "passed"
             },
-            "line": 31,
+            "line": 30,
             "name": "Application should be closed",
             "match": {
               "location": "LoginTest.application_should_be_closed()"
@@ -171,7 +177,231 @@
         ],
         "tags": [
           {
-            "line": 24,
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 23,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Facebook login with valid credentials",
+        "description": "",
+        "id": "facebook-login;facebook-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3884500650,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Open firefox browser",
+            "match": {
+              "location": "LoginTest.open_firefox_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92438955,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter valid \"selintestselin@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selintestselin@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginTest.i_enter_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49052584,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "enter valid \"test0test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test0test1",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginTest.enter_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148473450,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click login button",
+            "match": {
+              "location": "LoginTest.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29927828,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "LoginTest.i_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1235913710,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Application should be closed",
+            "match": {
+              "location": "LoginTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 23,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Facebook login with valid credentials",
+        "description": "",
+        "id": "facebook-login;facebook-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3794230835,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Open firefox browser",
+            "match": {
+              "location": "LoginTest.open_firefox_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75153330,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter valid \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginTest.i_enter_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31479978,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "enter valid \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginTest.enter_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97618840,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click login button",
+            "match": {
+              "location": "LoginTest.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39082826,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "LoginTest.i_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225166692,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Application should be closed",
+            "match": {
+              "location": "LoginTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 23,
             "name": "@tag1"
           }
         ]
@@ -184,7 +414,7 @@
     "uri": "myapplication.feature",
     "tags": [
       {
-        "line": 20,
+        "line": 19,
         "name": "@tag"
       }
     ]

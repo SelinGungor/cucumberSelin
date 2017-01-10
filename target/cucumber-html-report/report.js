@@ -70,63 +70,158 @@ formatter.feature({
       "value": "## (Comments)"
     },
     {
-      "line": 19,
+      "line": 18,
       "value": "#Sample Feature Definition Template"
     }
   ],
-  "line": 21,
+  "line": 20,
   "name": "Facebook login",
   "description": "I want to use this template for my feature file",
   "id": "facebook-login",
   "keyword": "Feature",
   "tags": [
     {
-      "line": 20,
+      "line": 19,
       "name": "@tag"
     }
   ]
 });
-formatter.scenario({
-  "line": 25,
+formatter.scenarioOutline({
+  "line": 24,
   "name": "Facebook login with valid credentials",
   "description": "",
   "id": "facebook-login;facebook-login-with-valid-credentials",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 24,
+      "line": 23,
       "name": "@tag1"
     }
   ]
 });
 formatter.step({
-  "line": 26,
+  "line": 25,
   "name": "Open firefox browser",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 27,
-  "name": "I enter valid \"selintestselin@gmail.com\"",
+  "line": 26,
+  "name": "I enter valid \"\u003cusername\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 28,
-  "name": "enter valid \"test0test\"",
+  "line": 27,
+  "name": "enter valid \"\u003cpassword\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 28,
   "name": "click login button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 29,
   "name": "I should be able to login successfully",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 31,
+  "line": 30,
+  "name": "Application should be closed",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 32,
+  "name": "",
+  "description": "",
+  "id": "facebook-login;facebook-login-with-valid-credentials;",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 33,
+      "id": "facebook-login;facebook-login-with-valid-credentials;;1"
+    },
+    {
+      "cells": [
+        "selintestselin@gmail.com",
+        "test0test"
+      ],
+      "line": 34,
+      "id": "facebook-login;facebook-login-with-valid-credentials;;2"
+    },
+    {
+      "cells": [
+        "selintestselin@gmail.com",
+        "test0test1"
+      ],
+      "line": 35,
+      "id": "facebook-login;facebook-login-with-valid-credentials;;3"
+    },
+    {
+      "cells": [
+        "test@gmail.com",
+        "test"
+      ],
+      "line": 36,
+      "id": "facebook-login;facebook-login-with-valid-credentials;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 34,
+  "name": "Facebook login with valid credentials",
+  "description": "",
+  "id": "facebook-login;facebook-login-with-valid-credentials;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@tag"
+    },
+    {
+      "line": 23,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 25,
+  "name": "Open firefox browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter valid \"selintestselin@gmail.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "enter valid \"test0test\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "click login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I should be able to login successfully",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
   "name": "Application should be closed",
   "keyword": "Then "
 });
@@ -134,7 +229,7 @@ formatter.match({
   "location": "LoginTest.open_firefox_browser()"
 });
 formatter.result({
-  "duration": 5045066024,
+  "duration": 5191436650,
   "status": "passed"
 });
 formatter.match({
@@ -147,7 +242,7 @@ formatter.match({
   "location": "LoginTest.i_enter_valid_username(String)"
 });
 formatter.result({
-  "duration": 197543009,
+  "duration": 220118653,
   "status": "passed"
 });
 formatter.match({
@@ -160,28 +255,244 @@ formatter.match({
   "location": "LoginTest.enter_valid_password(String)"
 });
 formatter.result({
-  "duration": 47406090,
+  "duration": 41842905,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.click_login_button()"
 });
 formatter.result({
-  "duration": 87099593,
+  "duration": 100403788,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_should_be_able_to_login_successfully()"
 });
 formatter.result({
-  "duration": 46189477,
+  "duration": 56197131,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 1374094892,
+  "duration": 1388898736,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 35,
+  "name": "Facebook login with valid credentials",
+  "description": "",
+  "id": "facebook-login;facebook-login-with-valid-credentials;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@tag"
+    },
+    {
+      "line": 23,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 25,
+  "name": "Open firefox browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter valid \"selintestselin@gmail.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "enter valid \"test0test1\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "click login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I should be able to login successfully",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "Application should be closed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginTest.open_firefox_browser()"
+});
+formatter.result({
+  "duration": 3884500650,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "selintestselin@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "LoginTest.i_enter_valid_username(String)"
+});
+formatter.result({
+  "duration": 92438955,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test0test1",
+      "offset": 13
+    }
+  ],
+  "location": "LoginTest.enter_valid_password(String)"
+});
+formatter.result({
+  "duration": 49052584,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.click_login_button()"
+});
+formatter.result({
+  "duration": 148473450,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.i_should_be_able_to_login_successfully()"
+});
+formatter.result({
+  "duration": 29927828,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.application_should_be_closed()"
+});
+formatter.result({
+  "duration": 1235913710,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 36,
+  "name": "Facebook login with valid credentials",
+  "description": "",
+  "id": "facebook-login;facebook-login-with-valid-credentials;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@tag"
+    },
+    {
+      "line": 23,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 25,
+  "name": "Open firefox browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 26,
+  "name": "I enter valid \"test@gmail.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 27,
+  "name": "enter valid \"test\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "click login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I should be able to login successfully",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "Application should be closed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginTest.open_firefox_browser()"
+});
+formatter.result({
+  "duration": 3794230835,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "LoginTest.i_enter_valid_username(String)"
+});
+formatter.result({
+  "duration": 75153330,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test",
+      "offset": 13
+    }
+  ],
+  "location": "LoginTest.enter_valid_password(String)"
+});
+formatter.result({
+  "duration": 31479978,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.click_login_button()"
+});
+formatter.result({
+  "duration": 97618840,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.i_should_be_able_to_login_successfully()"
+});
+formatter.result({
+  "duration": 39082826,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.application_should_be_closed()"
+});
+formatter.result({
+  "duration": 1225166692,
   "status": "passed"
 });
 });
