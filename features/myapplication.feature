@@ -28,5 +28,5 @@ When I enter valid "selintestselin@gmail.com"
 	And enter valid "test0test"
 	And click login button
 Then I should be able to login successfully
-
+Then Application should be closed
 

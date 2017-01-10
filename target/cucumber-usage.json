@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^I enter valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"selintestselin@gmail.com\"",
+        "aggregatedDurations": {
+          "average": 0.197543009,
+          "median": 0.197543009
+        },
+        "durations": [
+          {
+            "duration": 0.197543009,
+            "location": "myapplication.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click login button$",
+    "steps": [
+      {
+        "name": "click login button",
+        "aggregatedDurations": {
+          "average": 0.087099593,
+          "median": 0.087099593
+        },
+        "durations": [
+          {
+            "duration": 0.087099593,
+            "location": "myapplication.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "enter valid \"test0test\"",
+        "aggregatedDurations": {
+          "average": 0.04740609,
+          "median": 0.04740609
+        },
+        "durations": [
+          {
+            "duration": 0.04740609,
+            "location": "myapplication.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Application should be closed$",
+    "steps": [
+      {
+        "name": "Application should be closed",
+        "aggregatedDurations": {
+          "average": 1.374094892,
+          "median": 1.374094892
+        },
+        "durations": [
+          {
+            "duration": 1.374094892,
+            "location": "myapplication.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to login successfully$",
+    "steps": [
+      {
+        "name": "I should be able to login successfully",
+        "aggregatedDurations": {
+          "average": 0.046189477,
+          "median": 0.046189477
+        },
+        "durations": [
+          {
+            "duration": 0.046189477,
+            "location": "myapplication.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open firefox browser$",
+    "steps": [
+      {
+        "name": "Open firefox browser",
+        "aggregatedDurations": {
+          "average": 5.045066024,
+          "median": 5.045066024
+        },
+        "durations": [
+          {
+            "duration": 5.045066024,
+            "location": "myapplication.feature:26"
+          }
+        ]
+      }
+    ]
+  }
+]

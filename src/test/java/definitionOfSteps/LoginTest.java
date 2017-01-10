@@ -1,4 +1,4 @@
-package com.cucumber.selin;
+package definitionOfSteps;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class LoginTests {
+public class LoginTest {
 	WebDriver driver;
 	
 	@Given("^Open firefox browser$")
@@ -39,6 +39,9 @@ public class LoginTests {
 		driver.getPageSource().contains("Home");
 	}
 
-	
+	@Then("^Application should be closed$")
+	public void application_should_be_closed() throws Throwable {
+	   driver.quit();
+	}	
 
 }
